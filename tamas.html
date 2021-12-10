@@ -1,0 +1,33 @@
+<html>  
+    <i>
+    <h1>اطلاعات ارتباطی و فرم </h1>
+    <h2> <a href="index.html.html">صفحه معرفی</a> </h2>
+    <h3> <a href="tavanmandi.html" >صفحه توانمندی</a></h3>
+    <h4> <a href="eftekhar.html">صفحه افتخارات</a> </h4>
+</i>
+
+    <br>
+    <br>
+    <br>
+    <body dir="rtl" bgcolor="yellow">
+        <form name="myForm" action="demo_form.asp" onsubmit="return Form()" method="post">
+        Name&email&message: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <script>
+    function Form() {
+        var  x = document.forms["myForm"]["fname"].value;
+        if ( x == null || x == "") {
+            alert("لطفا کادر را تکمیل کنید");
+            return false;
+        }
+        else{
+            confirm("آیا مطمئن هستید؟");
+        }
+    }
+</script>
+</body>
+<footer><a href="https://github.com/amirkoochk/Merge-Game.git"> صفحه گیتهاب</a>&nbsp;&nbsp;&nbsp;<a href="amirkoochk@gmail.com"> amirkoochk@gmail.com:آدرس جیمیل</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://stackoverflow.com/users/17510198/amirhosseinkoochakian">صفحه استک اورفلو</a>            </footer>
+</html>
